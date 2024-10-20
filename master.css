@@ -41,5 +41,11 @@
     font-family: "Impact";
     color: red;
 }
-
-
+.word {
+    color: red;
+ }
+ 
+ .word:hover, .word.selected {
+     color: blue;
+     cursor: pointer;
+ }
