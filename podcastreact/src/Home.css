@@ -1,0 +1,87 @@
+.banner {
+    /* border-color: #3563a9; */
+    width: 100%;
+    position:fixed;
+
+}
+
+.banner img {
+    width: 100%;
+    justify-content: center;
+    z-index: 0;
+}
+
+.banner p{
+    z-index: 1;
+}
+
+.banner audio{
+    width: 100%;
+   
+}
+
+.main {
+    position:relative;
+    margin-top: -20%;
+    background-color: rgb(62,87,128);
+    height: 100%;
+    width: 100%;
+    top:80%;
+    font-size: 16px;
+}
+
+.main .audioBlock{
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+.main .audioBlock p{
+    color:white;
+}
+
+
+
+
+
+.main .separator {
+    /* background-color: white; */
+    background-color: blueviolet;
+    width: 100%;
+    height: 10%;
+    /* background-image: url("/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/separator Image.png"); */
+    /* text-align: center; */
+    font-size:40px;
+    font-family: "Impact";
+    color: red;
+}
+
+.separator .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.separator .menu button {
+    background-color: white;
+    /* background-image: url("/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/separator Image.png"); */
+    text-align: center;
+    font-size:40px;
+    font-family: "Impact";
+    color: red;
+    border-color: transparent;
+    border-bottom-color: black;
+    
+}
+
+.word {
+    color: red;
+ }
+ 
+ .word:hover, .word.selected {
+     color: blue;
+     cursor: pointer;
+ }
+
+ h1{
+    color:red;
+ }
