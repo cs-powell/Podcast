@@ -43,10 +43,10 @@
         
         //Method 3 (Works best)
         sarImg = new Image(100,100);
-        sarImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/pokemon.png';
+        sarImg.src = 'assets/images/pokemon.png';
         sarImg.id = "sar";
         profImg = new Image(100,100);
-        profImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/Sarah prof.png';
+        profImg.src = 'assets/images/Sarah prof.png';
         profImg.id = "prof";
         
         const newDiv = document.createElement("div");
