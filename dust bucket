@@ -13,3 +13,34 @@
     //   { end: "4.805", start: "3.965", text: "Roll" },
     //   { end: "5.405", start: "4.805", text: "over!" }
     // ];
+
+
+
+    // Method 1
+        // subtitles.appendChild(element);
+
+
+        //Method 2
+        // if(i % 2 == 0){
+        //   profImg = new Image(100,100);
+        //   profImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/Sarah prof.png';
+        //   const fragment = document.createDocumentFragment();
+        //   fragment.append(profImg);
+        //   fragment.appendChild(element);
+        //   // const combination = fragment.appendChild((document.createElement("p")));
+        //   // combination.textContent = element.innerText;
+          
+        //   subtitles.appendChild(fragment);
+        // } else {
+        //   sarImg = new Image(100,100);
+        //   sarImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/pokemon.png';
+
+        //   const fragment = document.createDocumentFragment();
+        //   fragment.append(sarImg);
+        //   fragment.appendChild(element);
+
+        //   subtitles.appendChild(fragment);
+
+        //   // subtitles.appendChild(sarImg);
+        //   // subtitles.appendChild(element);
+        // }
