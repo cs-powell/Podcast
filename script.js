@@ -101,12 +101,20 @@
         ) {
           subtitleBox.children[index].style.background = "red";
           subtitleBox.children[index].style.fontWeight = "bold";
-    
         //Scroll Method 1
+
+        setTimeout(() => {
           subtitleBox.children[index].scrollIntoView({
             behavior: 'smooth',
             block: 'center'
         })
+        }, 10);
+
+
+        //   subtitleBox.children[index].scrollIntoView({
+        //     behavior: 'smooth',
+        //     block: 'center'
+        // })
 
         }
 
