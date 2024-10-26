@@ -16,22 +16,19 @@
       { speaker: "p", end: "4", start: "0", text: "Measure" },
       { speaker: "s", end: "8", start: "4", text: "Measure" },
       { speaker: "p", end: "12", start: "8", text: "Measure" },
-      {speaker: "s",  end: "16", start: "12", text: "Measure" },
+      { speaker: "s",  end: "16", start: "12", text: "Measure" },
       { speaker: "p", end: "20", start: "16", text: "Measure" },
       { speaker: "s", end: "24", start: "20", text: "Measure" },
       { speaker: "p", end: "28", start: "24", text: "Measure" },
       { speaker: "s", end: "32", start: "28", text: "Measure" }
     ];
 
-
-
-    createSubtitle();
-
+    
 
     function pageScroll() {
       window.scrollBy(0,1);
       scrolldelay = setTimeout(pageScroll,10);
-  }
+    }
   
     function createSubtitle() {
       var element;
@@ -67,7 +64,8 @@
     }
 
 
-  
+    createSubtitle();
+
     audioPlayer.addEventListener("timeupdate", function(e) {   //timeupdate event
       syncData.forEach(function(element, index, array) {
         
@@ -100,19 +98,16 @@
         if (
           audioPlayer.currentTime >= element.start &&
           audioPlayer.currentTime <= element.end
-        ){ 
+        ) {
           subtitleBox.children[index].style.background = "red";
           subtitleBox.children[index].style.fontWeight = "bold";
-          const currImg = subtitleBox.children[index].getElementsByTagName()
-          currImg.setAttribute("width", '200px');
-          currImg.setAttribute("height", '200px');
-          var x = document.querySelector("#parent").querySelector("#child");
     
         //Scroll Method 1
           subtitleBox.children[index].scrollIntoView({
             behavior: 'smooth',
             block: 'center'
         })
+
         }
 
         
