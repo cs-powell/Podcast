@@ -42,16 +42,20 @@
         sarImg = new Image(100,100);
         sarImg.src = 'assets/images/pokemon.png';
         sarImg.id = "sar";
+        sarImg.className = "profile-photos";
         profImg = new Image(100,100);
         profImg.src = 'assets/images/Sarah prof.png';
         profImg.id = "prof";
+        profImg.className = "profile-photos";
         
         const newDiv = document.createElement("div");
-        newDiv.style.background = "green";
-
+        newDiv.style.background = "gray";
+        newDiv.style.color = "white";
+        newDiv.className = "talk-box";
 
         if(syncData[i].speaker == 's') {
           newDiv.append(sarImg);
+          newDiv.style.background = "blue";
         } else {
           newDiv.append(profImg);
         }
@@ -65,8 +69,10 @@
 
 
     createSubtitle();
+    counter = 0;
 
     audioPlayer.addEventListener("timeupdate", function(e) {   //timeupdate event
+      
       syncData.forEach(function(element, index, array) {
         
         //Method 1
@@ -96,13 +102,14 @@
 
         //Bold/Highlight Method 2
         if (
-          audioPlayer.currentTime >= element.start &&
-          audioPlayer.currentTime <= element.end
+          audioPlayer.currentTime >= element.start 
+          && audioPlayer.currentTime <= element.end
         ) {
-          subtitleBox.children[index].style.background = "red";
-          subtitleBox.children[index].style.fontWeight = "bold";
-        //Scroll Method 1
+          // subtitleBox.children[index].style.background = "red";
+          // subtitleBox.children[index].style.fontWeight = "bold";
+          subtitleBox.children[index].className = "talk-box-read";
 
+        //Scroll Method 1
         setTimeout(() => {
           subtitleBox.children[index].scrollIntoView({
             behavior: 'smooth',
@@ -110,12 +117,10 @@
         })
         }, 10);
 
+        // oldWidth = document.getElementsByClassName("profile-photos")[counter].width;
 
-        //   subtitleBox.children[index].scrollIntoView({
-        //     behavior: 'smooth',
-        //     block: 'center'
-        // })
-
+        // console.log(oldWidth + " Counter: " + counter);
+        
         }
 
         
