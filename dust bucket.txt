@@ -1,0 +1,128 @@
+ // var syncData = [
+    //   { end: "0.225", start: "0.125", text: "There" },
+    //   { end: "0.485", start: "0.225", text: "were" },
+    //   { end: "1.085", start: "0.485", text: "10 in" },
+    //   { end: "1.325", start: "1.085", text: "his" },
+    //   { end: "1.685", start: "1.325", text: "bed" },
+    //   { end: "1.965", start: "1.685", text: "and the" },
+    //   { end: "2.245", start: "1.965", text: "little" },
+    //   { end: "2.565", start: "2.245", text: "one" },
+    //   { end: "2.985", start: "2.565", text: "said" },
+    //   { end: "3.485", start: "2.985", text: "Roll" },
+    //   { end: "3.965", start: "3.485", text: "over!" },
+    //   { end: "4.805", start: "3.965", text: "Roll" },
+    //   { end: "5.405", start: "4.805", text: "over!" }
+    // ];
+
+
+
+    // Method 1
+        // subtitles.appendChild(element);
+
+
+        //Method 2
+        // if(i % 2 == 0){
+        //   profImg = new Image(100,100);
+        //   profImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/Sarah prof.png';
+        //   const fragment = document.createDocumentFragment();
+        //   fragment.append(profImg);
+        //   fragment.appendChild(element);
+        //   // const combination = fragment.appendChild((document.createElement("p")));
+        //   // combination.textContent = element.innerText;
+          
+        //   subtitles.appendChild(fragment);
+        // } else {
+        //   sarImg = new Image(100,100);
+        //   sarImg.src = '/Users/flyingtopher/Desktop/Code Citadel/School/3. PSYC 2288 Podcast/Podcast/assets/images/pokemon.png';
+
+        //   const fragment = document.createDocumentFragment();
+        //   fragment.append(sarImg);
+        //   fragment.appendChild(element);
+
+        //   subtitles.appendChild(fragment);
+
+        //   // subtitles.appendChild(sarImg);
+        //   // subtitles.appendChild(element);
+        // }
+
+
+
+
+// async function loadTranscript() {
+//     let data = await fetch("./transcript.json")
+//       .then(response => response.json());
+//     return data 
+//   }
+
+
+// {
+//     "name": "Podcast",
+//     "lockfileVersion": 3,
+//     "requires": true,
+//     "packages": {
+//       "": {
+//         "dependencies": {
+//           "audiomotion-analyzer": "^4.5.0",
+//           "requirejs": "^2.3.7"
+//         }
+//       },
+//       "node_modules/audiomotion-analyzer": {
+//         "version": "4.5.0",
+//         "resolved": "https://registry.npmjs.org/audiomotion-analyzer/-/audiomotion-analyzer-4.5.0.tgz",
+//         "integrity": "sha512-qnmB8TSbrxYkTbFgsQeeym0Z/suQx4c0jFg9Yh5+gaPw6J4AFLdfFpagdnDbtNEsj6K7BntgsC3bkdut5rxozg==",
+//         "funding": {
+//           "type": "Ko-fi",
+//           "url": "https://ko-fi.com/hvianna"
+//         }
+//       },
+//       "node_modules/requirejs": {
+//         "version": "2.3.7",
+//         "resolved": "https://registry.npmjs.org/requirejs/-/requirejs-2.3.7.tgz",
+//         "integrity": "sha512-DouTG8T1WanGok6Qjg2SXuCMzszOo0eHeH9hDZ5Y4x8Je+9JB38HdTLT4/VA8OaUhBa0JPVHJ0pyBkM1z+pDsw==",
+//         "bin": {
+//           "r_js": "bin/r.js",
+//           "r.js": "bin/r.js"
+//         },
+//         "engines": {
+//           "node": ">=0.4.0"
+//         }
+//       }
+//     }
+//   }
+
+
+
+    // var syncData = [
+    //   { end: "2.500", start: "1.000", text: "I am Optimus Prime" },
+    //   { end: "5.0", start: "3.0", text: "and I send this message" },
+    //   { end: "7.0", start: "5.1", text: "to any surviving autobots" },
+    //   { end: "9.5", start: "7.1", text: "taking refuge among the stars" },
+    //   { end: "12.0", start: "10.7", text: "we are here" },
+    //   { end: "20.0", start: "13.0", text: "we are waiting" }
+    // ];
+
+
+    // var syncData = [
+    //   { speaker: "p", end: "4", start: "0", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel risus nibh. Mauris scelerisque feugiat lorem a ornare. Morbi pellentesque odio urna, a posuere sapien ullamcorper in. Vivamus non tristique tellus, id eleifend ligula. Mauris luctus feugiat aliquet. Nam aliquet libero et ante accumsan, id pretium nunc sagittis. Fusce a erat eu massa finibus sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vestibulum risus eros. Nunc suscipit viverra est nec fermentum. Donec felis diam, vestibulum id leo id, semper eleifend velit. Aliquam non lorem vitae sapien hendrerit vestibulum. Nam vel lacinia lacus, a condimentum diam. " +
+    //     "\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. In vel risus nibh. Mauris scelerisque feugiat lorem a ornare. Morbi pellentesque odio urna, a posuere sapien ullamcorper in. Vivamus non tristique tellus, id eleifend ligula. Mauris luctus feugiat aliquet. Nam aliquet libero et ante accumsan, id pretium nunc sagittis. Fusce a erat eu massa finibus sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vestibulum risus eros. Nunc suscipit viverra est nec fermentum. Donec felis diam, vestibulum id leo id, semper eleifend velit. Aliquam non lorem vitae sapien hendrerit vestibulum. Nam vel lacinia lacus, a condimentum diam."
+    //    },
+    //   { speaker: "s", end: "8", start: "4", text: "Nom Nom Nom. Fair warning: I bite" },
+    //   { speaker: "p", end: "12", start: "8", text: "ugemu-jugemu Gokōnosurikire Kaijarisuigyo-no Suigyōmatsu Unraimatsu Fūraimatsu Kūnerutokoroni-sumutokoro Yaburakōjino-burakōji Paipopaipo-paiponoshūringan Shūringanno-gūrindai Gūrindaino-ponpokopīno-ponpokonāno Chōkyūmeino-chōsuke" },
+    //   { speaker: "s",  end: "16", start: "12", text: "Measure" },
+    //   { speaker: "p", end: "20", start: "16", text: "Measure" },
+    //   { speaker: "s", end: "24", start: "20", text: "Measure" },
+    //   { speaker: "p", end: "28", start: "24", text: "Measure" },
+    //   { speaker: "s", end: "32", start: "28", text: "Measure" }
+    // ];
+    
+
+    // window.onscroll = function() {myFunction()};
+
+    // function myFunction() {
+    //   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    //   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    //   var scrolled = (winScroll / height) * 10;
+    //   document.getElementById("myBar").style.width = scrolled + "%";
+    // }
+   
+    // console.log(syncData);

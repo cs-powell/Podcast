@@ -1,61 +1,122 @@
 <head>
-    <link rel="stylesheet" href="master.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style/master.css">
+    <script src="modules/script.js" defer></script>
 </head>
 
-<body>
-
-    <!-- <h1>Actions with No Potential</h1> -->
-     <div class= "banner">
-        
-    <img class="banner" src="assets/images/Actions with no potential copy.png" alt="Actions with no Potential" width="500">
-    </div>
+    <body>
+        <!-- <h1>Actions with No Potential</h1> -->
+        <div class= "banner">
+            <img class="banner" src="assets/images/Actions with no potential copy.png" alt="Actions with no Potential" width="500">
+        </div>
      
-     <div class="body">
-        <!-- Website Menu -->
-        <div class = "separator">
-            <div class ="menu">
-                <a href="podcast.html">
-                    <button >Podcast</button>
-                </a>
+        <div class="body">
+            <!-- Website Menu -->
+            <div class = "separator">
+                <div class ="menu">
+                    <a href="podcast.html">
+                        <button >Podcast</button>
+                    </a>
 
-                <a href="guests.html">
-                    <button >Guests</button>
-                </a>
+                    <a href="guests.html">
+                        <button class="word" >Guests</button>
+                    </a>
 
-                <a href="authors.html">
-                    <button >Authors</button>
-                </a>
+                    <a href="authors.html">
+                        <button >Authors</button>
+                    </a>
 
-                <a href="authors.html">
-                    <button >Works Cited</button>
-                </a>
+                    <a href="authors.html">
+                        <button >Works Cited</button>
+                    </a>
+
+                    <a href="authors.html">
+                        <button >Ghosts</button>
+                    </a>
+                </div>
             </div>
+
+            <div class ="opening">
+                <div class="heading-bubble">
+                    <h1>Synopsis</h1>
+                </div>
+
+                <div class="text-bubble">
+                    <p>Today we sit down to speak with Judgment and Decisions professor Dr. Diego Fernandez-Duque and computer science professor Dr. Rajeev Alur to discuss the neuroscience behind
+                        decision making, criminal sentencing decisions, and whether human decision making processes have unique advantages over proposed computerized decison making.  </p>
+                </div>
+
+                <div class="heading-bubble">
+                    <h1>Table of Contents</h1>
+                </div>
+
+                <div class="table-of-contents">
+                    <li>Neuroscience Speciifc Topic 1</li>
+                    <li>Neuroscience Speciifc Topic 2</li>
+                    <li>Neuroscience Speciifc Topic 3</li>
+                </div>
+
+
+               
+              
+                <!-- <p style="font-size: 30px;"> 
+                    This work in progress website will be completely custom coded to host the audio for the podcast and include items such as:
+                    <li style="font-size: 30px;"> Works Cited </li>
+                    <li style="font-size: 30px;"> Live Transcript </li>
+                    <p style="font-size: 30px">
+                        The Github repository can befound <a href="https://github.com/cs-powell/Podcast">  here</a> <br>
+                        Below is a basic representation of the test of the live transcript running with javascript. For the purposes of this proof of concept, the first image is our first potential interview subject, The second image is the pokemon that best represents the person interviewing them(Sarah).
+                        (It will look much nicer upon completion).</p>
+                </p> -->
+
+            </div>
+
+        
+            <div class="transcript-box">
+                <!-- ABOVE THE SUBTITLES -->
+                <h1>TRANSCRIPT </h1>
+
+                <!-- <div class ="sticky-box">
+                    <h1>Control Panel</h1>
+                    
+                    <audio id="audiofile" src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3" controls></audio><br> 
+                
+                    <div id="question-box">
+                        
+                         <div class="question-display"><img src="assets/images/qmark.gif" class="profile-photos"> Current Question Will Appear Here <img src="assets/images/qmark.gif" class="profile-photos"></div>
+                    </div>
+            
+                </div> -->
+                
+
+                
+                <!-- THE SUBTITLES -->
+                <div class="twoColumn">
+
+                <div id = "subtitle-box">
+                    <div id="subtitles"></div>
+                </div>
+                
+                <div class ="sticky-box-RIGHT">
+                    <h1>Control Panel</h1>
+                    
+                    <audio id="audiofile" src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3" controls></audio><br>
+                   
+                
+                    <div id="question-box">
+                        <!-- inside here will be elements with question display class -->
+                         <!-- <div class="question-display"><img src="assets/images/qmark.gif" class="profile-photos"> Current Question Will Appear Here <img src="assets/images/qmark.gif" class="profile-photos"></div> -->
+                    </div>
+            
+                </div>
+                </div>
+
+            </div>
+        
+
+
+            
+
         </div>
-
-
-        <!-- <div class="audioBlock">
-            <p> Test Audio(It's just a Brass Quintet Performance Right Now)</p>
-            <audio controls>
-                <source src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3" type="audio/mp3"> 
-             </audio>
-        </div> -->
-        <p style="font-size: 30px;"> 
-            This work in progress website will be completely custom coded to host the audio for the podcast and include items such as:
-            <li style="font-size: 30px;"> Works Cited </li>
-            <li style="font-size: 30px;"> Live Transcript </li>
-            <p style="font-size: 30px">
-                The Github repository can befound <a href="https://github.com/cs-powell/Podcast">  here</a> <br>
-                Below is a basic representation of the test of the live transcript running with javascript. For the purposes of this proof of concept, the first image is our first potential interview subject, The second image is the pokemon that best represents the person interviewing them(Sarah).
-                 (It will look much nicer upon completion).</p>
-        </p>
-    
-        <audio id="audiofile" src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3" controls></audio><br>
-        <div id = "subtitle-box">
-            <div id="subtitles"></div>
-        </div>
-     </div>
-
      
     
 </body>

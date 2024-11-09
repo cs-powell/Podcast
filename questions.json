@@ -1,0 +1,32 @@
+[
+    { 
+        "speaker": "s", 
+        "end": "4", 
+        "start": "0", 
+        "text": "If you could know the absolute truth to one question, what would it be?" 
+    },
+    { 
+       "speaker": "s", 
+        "end": "8", 
+        "start": "4", 
+        "text": "If you could have any superpower, but only one, what would it be?" 
+    },
+    { 
+        "speaker": "s", 
+        "end": "12", 
+        "start": "8", 
+        "text": "If you could live in any fictional world, which one would you choose?" 
+    },
+    { 
+        "speaker": "s", 
+        "end": "16", 
+        "start": "12", 
+        "text": "What’s your go-to karaoke song?" 
+    },
+    { 
+        "speaker": "s", 
+        "end": "20", 
+        "start": "16", 
+        "text": "If you could instantly become an expert in anything, what would it be?" 
+    }
+]

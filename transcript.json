@@ -1,0 +1,17 @@
+[
+    { 
+        "speaker": "p", 
+        "end": "4", 
+        "start": "0", 
+        "text": "Lorem ipsum"
+    },
+    { "speaker": "s", "end": "8", "start": "4", "text": "Nom Nom Nom. Fair warning: I bite" },
+    { "speaker": "p", "end": "12", "start": "8", "text": "Ut eleifend posuere diam, in posuere nunc pellentesque vel. Sed felis lacus, ultricies ac porta a, tincidunt a erat. Etiam dignissim vulputate laoreet. Sed ligula mauris, aliquet ut rhoncus sit amet, porttitor sit amet massa. Fusce et commodo dolor. Nam faucibus nulla leo, vitae iaculis velit malesuada vel. Quisque sit amet diam blandit, egestas nunc quis, vestibulum lacus. Sed quis dapibus ex, a semper erat. Proin vel sapien est. Maecenas id augue turpis. Fusce luctus lectus vel ullamcorper malesuada. Vivamus sit amet commodo tellus. Aliquam lectus ligula, finibus sed lectus eu, maximus finibus purus."},
+    { "speaker": "s",  "end": "16", "start": "12", "text": "Ut eleifend posuere diam, in posuere nunc pellentesque vel. Sed felis lacus, ultricies ac porta a, tincidunt a erat. Etiam dignissim vulputate laoreet. Sed ligula mauris, aliquet ut rhoncus sit amet, porttitor sit amet massa. Fusce et commodo dolor. Nam faucibus nulla leo, vitae iaculis velit malesuada vel. Quisque sit amet diam blandit, egestas nunc quis, vestibulum lacus. Sed quis dapibus ex, a semper erat. Proin vel sapien est. Maecenas id augue turpis. Fusce luctus lectus vel ullamcorper malesuada. Vivamus sit amet commodo tellus. Aliquam lectus ligula, finibus sed lectus eu, maximus finibus purus." },
+    { "speaker": "p", "end": "20", "start": "16", "text": "Measure" },
+    { "speaker": "s", "end": "24", "start": "20", "text": "Measure" },
+    { "speaker": "p", "end": "28", "start": "24", "text": "Measure" },
+    { "speaker": "s", "end": "32", "start": "28", "text": "Measure" },
+    { "speaker": "s", "end": "36", "start": "32", "text": "EUREKA!!!!" },
+    { "speaker": "s", "end": "40", "start": "36", "text": "EUREKA!!!!" }
+]
