@@ -172,7 +172,7 @@
           const caption = doc.createElement("figcaption");
           caption.innerText = "Sarah Garrison"
           caption.style.background = "rgb( 81,178,189)";
-          inDiv1.appendChild(biteImg);
+          inDiv1.appendChild(sarImg);
           inDiv1.appendChild(caption);
           tempContainer.appendChild(inDiv1);
           // newDiv.append(inDiv1);

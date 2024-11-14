@@ -15,14 +15,86 @@ p {
 }
 
 
+/*CUSTOM WORK CITED ELEMENTS*/
+.wc-element {
+    border-radius: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px ;
+    height: max-content;
+    scroll-margin-bottom: 300px;
+    padding: 20px;
+}
 
+.wc-element:hover {
+    border-radius: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px ;
+    height: max-content;
+    font-weight: bold;
 
+    scroll-margin-bottom: 300px;
+    padding: 20px;
+}
 
+#wc {
+    text-wrap: wrap;
+    background-color: aquamarine;
+    background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(0, 157, 255) );
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    width: fit-content;
+}
 
+.wc-box{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+}
 
+.wc-box h1{
+    font-size: 30px;
+    align-self: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
 
 
 /* CUSTOM ELEMENTS */
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 20px;
+}
+.profile-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-right{
+    display: flex;
+    flex-direction: row;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+}
+
 .heading-bubble {
     /* background-image: linear-gradient(to right,#56AEFF,white 10%); */
     background-image: linear-gradient(to right,rgb(162, 0, 255) 10px,white 20px, white 11%);
@@ -40,6 +112,7 @@ p {
     margin-left: 2%;
     padding-left: 30px;
     padding-right: 30px;
+    border-radius: 10px;
     background-image: linear-gradient(to right,#56AEFF 1%,white 1.5%, white 98%, red 99%);
 
 }
