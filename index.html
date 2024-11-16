@@ -84,15 +84,33 @@
                 </div>
                 
                 <div class ="sticky-box-RIGHT">
-                    <h1>Control Panel</h1>
+                    <span style="
+                    background-color: black; width: 100%; 
+                    justify-items: center; padding: inherit; 
+                    border-top-left-radius: inherit;
+                    border-top-right-radius: inherit;">
+                        <h1>Control Panel</h1>
+                    </span>
+                        
+                
                     
-                    <audio id="audiofile" src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3" controls></audio><br>
-                   
+                    <audio id="audiofile" src="assets/audio/yt5s.com - Vuelta del Fuego (128 kbps).mp3"  style="margin-top: 10px;"
+                    controls></audio><br>
+
+                   <div style="display: flex; flex-direction: row;">
+                        <h1 style=" margin-right: 20px;">Toggle Autoscroll</h1>
+                        <label class="switch">
+                            <input type="checkbox" id="scroll-switch">
+                            <span class="slider"></span>
+                        </label>
+                   </div>
+                    
                 
                     <div id="question-box">
                         <!-- inside here will be elements with question display class -->
                          <!-- <div class="question-display"><img src="assets/images/qmark.gif" class="profile-photos"> Current Question Will Appear Here <img src="assets/images/qmark.gif" class="profile-photos"></div> -->
                     </div>
+
             
                 </div>
                 </div>

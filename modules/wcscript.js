@@ -15,7 +15,7 @@
         element.setAttribute("id", "c");
         linkWrapper = doc.createElement("a");
         linkWrapper.href = json[i].link;
-        element.innerText = json[i].text + " " + i + "";
+        element.innerText = json[i].text + "";
         element.className = "dialouge";
         
 

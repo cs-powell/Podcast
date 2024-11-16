@@ -27,8 +27,10 @@
     var subtitles = doc.getElementById("subtitles");
     var subtitleBox = doc.getElementById("subtitle-box");
     var questionBox = doc.getElementById("question-box");
+    var scroll_switch = doc.getElementById("scroll-switch");
 
     function createQuestion(currTime) {
+      
       
           fetch('questions.json')
           .then((response) => response.json())
@@ -236,11 +238,19 @@
   
           //Scroll Method 1
           setTimeout(() => {
-            subtitleBox.children[index].scrollIntoView({
-              behavior: 'smooth',
-              // block: 'center'
-              block: 'end'
-          })
+
+            if(scroll_switch.checked){
+
+              subtitleBox.children[index].scrollIntoView({
+                behavior: 'smooth',
+                // block: 'center'
+                block: 'end'
+            })
+
+            } else {
+              //Do nothing
+            }
+            
           }, 10);
   
           // oldWidth = document.getElementsByClassName("profile-photos")[counter].width;
