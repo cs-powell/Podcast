@@ -119,7 +119,9 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    background-image: linear-gradient(to right,#56AEFF 1%,white 1.5%, white 98%, red 99%);
+    background-image: linear-gradient(to right,#56AEFF 1%,#56adff29 1.5%, rgba(255, 0, 0, 0.127) 98%, red 99%);
+    /* background-image: linear-gradient(to right,#56AEFF 1%,white 1.5%,#56adff29 1.5%, rgba(255, 0, 0, 0.127) 98%, white 98%, red 99%); */
+
 
 }
 
@@ -129,6 +131,8 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     background-image: linear-gradient(to right,#56AEFF 1%,white 1.5%, white 98%, red 99%);
+    background-image: linear-gradient(to right,#56AEFF 1%,white 1.5%,#56adff29 1.5%, rgba(255, 0, 0, 0.127) 98%, white 98%, red 99%);
+
 }
 
 .banner {

@@ -28,6 +28,9 @@
     var subtitleBox = doc.getElementById("subtitle-box");
     var questionBox = doc.getElementById("question-box");
     var scroll_switch = doc.getElementById("scroll-switch");
+    var scroll_label = doc.getElementById("scroll-switch1");
+    var autoscroll = doc.getElementById("autoscroll");
+    var controlPanel = doc.getElementById("control-panel");
 
     function createQuestion(currTime) {
       
@@ -240,7 +243,7 @@
           setTimeout(() => {
 
             if(scroll_switch.checked){
-
+              autoscroll.style.color = "white";
               subtitleBox.children[index].scrollIntoView({
                 behavior: 'smooth',
                 // block: 'center'
@@ -248,7 +251,7 @@
             })
 
             } else {
-              //Do nothing
+              autoscroll.style.color = "#56AEFF";
             }
             
           }, 10);
@@ -271,6 +274,17 @@
         
     });
 
+
+    scroll_label.addEventListener("mousedown", function(e) {
+      if(scroll_switch.checked){
+        autoscroll.style.color = "white";
+        autoscroll.innerText = "Autoscroll off ";
+      } else {
+        autoscroll.style.color = "#56AEFF";
+        autoscroll.innerText = "Autoscroll on ";
+      }
+
+    })
 
 
 
