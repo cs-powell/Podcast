@@ -248,7 +248,7 @@
         // element.appendChild(timeStamp);
       
         newDiv.appendChild(tempContainer);
-        newDiv.appendChild(timeStamp);
+        // newDiv.appendChild(timeStamp);
         
         subtitleBox.append(newDiv);
         //console.log(element)  //"<span id='c_0'>There </span>"
@@ -280,7 +280,7 @@
             console.log("Change Successful" + " -- " + element["start"]);
             subtitleBox.children[index].className = "talk-box-read";
             // subtitleBox.children[index].style.background = "red";
-            createQuestion(audioPlayer.currentTime);
+            // createQuestion(audioPlayer.currentTime);
   
             //Scroll Method 1
             setTimeout(() => {
