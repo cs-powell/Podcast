@@ -164,10 +164,10 @@
         mImg.id = "max";
         mImg.className = "profile-photos";
 
-        biteImg = new Image(100,100);
-        biteImg.src = 'assets/images/micbite.jpg';
-        biteImg.id = "sar";
-        biteImg.className = "profile-photos";
+        // biteImg = new Image(100,100);
+        // biteImg.src = 'assets/images/micbite.jpg';
+        // biteImg.id = "sar";
+        // biteImg.className = "profile-photos";
         // biteImg.style.border = "10px solid rgb(135,233,252)";
 
         alurImg = new Image(100,100);
@@ -237,13 +237,15 @@
           inDiv1.className = "segment1";
           const caption = doc.createElement("figcaption");
           caption.innerText = "Prof. Rajeev Alur"
-          caption.style.background = "rgb( 81,178,189)";
+          // caption.style.background = "rgb( 81,178,189)";
+          caption.style.background = "rgb( 100,200,150)";
           inDiv1.appendChild(alurImg);
           inDiv1.appendChild(caption);
           tempContainer.appendChild(inDiv1);
           // newDiv.append(inDiv1);
           // newDiv.style.background = "rgb(184,69,242)"; //Purple Blue Pairing
-          newDiv.style.background = "rgb( 81,178,189)";
+          // newDiv.style.background = "rgb( 81,178,189)"; 
+          newDiv.style.background = "rgb( 100,200,150)";
         } else {
       
           inDiv2.className = "segment1";
