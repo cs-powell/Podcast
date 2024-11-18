@@ -148,7 +148,7 @@
         
         //Method 3 (Works best)
         sarImg = new Image(100,100);
-        sarImg.src = 'assets/images/pikachu.png'; 
+        sarImg.src = 'assets/images/sarah.png'; 
         sarImg.id = "sar";
         sarImg.className = "profile-photos";
 
@@ -160,7 +160,7 @@
 
 
         mImg = new Image(100,100);
-        mImg.src = 'assets/images/e.WEBP'; 
+        mImg.src = 'assets/images/max.png'; 
         mImg.id = "max";
         mImg.className = "profile-photos";
 
@@ -169,6 +169,12 @@
         biteImg.id = "sar";
         biteImg.className = "profile-photos";
         // biteImg.style.border = "10px solid rgb(135,233,252)";
+
+        alurImg = new Image(100,100);
+        alurImg.src = 'assets/images/alur.png';
+        alurImg.id = "sar";
+        alurImg.className = "profile-photos";
+        
 
         profImg = new Image(100,100);
         profImg.src = 'assets/images/Sarah prof.png';
@@ -226,6 +232,18 @@
           newDiv.style.background = "rgb( 81,178,189)";
 
 
+        }else if(json[i].speaker == 'rajeev') {
+
+          inDiv1.className = "segment1";
+          const caption = doc.createElement("figcaption");
+          caption.innerText = "Prof. Rajeev Alur"
+          caption.style.background = "rgb( 81,178,189)";
+          inDiv1.appendChild(alurImg);
+          inDiv1.appendChild(caption);
+          tempContainer.appendChild(inDiv1);
+          // newDiv.append(inDiv1);
+          // newDiv.style.background = "rgb(184,69,242)"; //Purple Blue Pairing
+          newDiv.style.background = "rgb( 81,178,189)";
         } else {
       
           inDiv2.className = "segment1";
