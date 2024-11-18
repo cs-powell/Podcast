@@ -24,7 +24,7 @@
 (function(win, doc) {
     
     var audioPlayer = doc.getElementById("audiofile");
-    var subtitles = doc.getElementById("subtitles");
+    // var subtitles = doc.getElementById("subtitles");
     var subtitleBox = doc.getElementById("subtitle-box");
     var questionBox = doc.getElementById("question-box");
     var scroll_switch = doc.getElementById("scroll-switch");
@@ -95,7 +95,7 @@
               newDiv.style.color = "white";
               newDiv.className = "question-display";
       
-              if(json[i].speaker == 's') {
+              if(json[i].speaker == 'sarah') {
                 newDiv.append(qImg);
               } else {
                 newDiv.append(profImg);
@@ -140,14 +140,29 @@
         element = doc.createElement("span");
         element.setAttribute("id", "c");   //not needed?
 
-        element.innerText = json[i].text + " " + i + "";
+
+
+        //element.innerText = json[i].text + " " + i + ""; //For testing purposes only
+        element.innerText = json[i].text
         element.className = "dialouge";
         
         //Method 3 (Works best)
         sarImg = new Image(100,100);
-        sarImg.src = 'assets/images/pokemon.png'; 
+        sarImg.src = 'assets/images/pikachu.png'; 
         sarImg.id = "sar";
         sarImg.className = "profile-photos";
+
+
+        cImg = new Image(100,100);
+        cImg.src = 'assets/images/moo.png'; 
+        cImg.id = "chris";
+        cImg.className = "profile-photos";
+
+
+        mImg = new Image(100,100);
+        mImg.src = 'assets/images/e.WEBP'; 
+        mImg.id = "max";
+        mImg.className = "profile-photos";
 
         biteImg = new Image(100,100);
         biteImg.src = 'assets/images/micbite.jpg';
@@ -171,7 +186,7 @@
         const inDiv2 = doc.createElement("div");
         const tempContainer = doc.createElement("div");
         tempContainer.className = "tempContainer";
-        if(json[i].speaker == 's') {
+        if(json[i].speaker == 'sarah') {
           
           inDiv1.className = "segment1";
           const caption = doc.createElement("figcaption");
@@ -183,6 +198,34 @@
           // newDiv.append(inDiv1);
           // newDiv.style.background = "rgb(184,69,242)"; //Purple Blue Pairing
           newDiv.style.background = "rgb( 81,178,189)";
+        } else if(json[i].speaker =='chris') {
+
+          inDiv1.className = "segment1";
+          const caption = doc.createElement("figcaption");
+          caption.innerText = "Christopher Powell"
+          caption.style.background = "rgb( 81,178,189)";
+          inDiv1.appendChild(cImg);
+          inDiv1.appendChild(caption);
+          tempContainer.appendChild(inDiv1);
+          // newDiv.append(inDiv1);
+          // newDiv.style.background = "rgb(184,69,242)"; //Purple Blue Pairing
+          newDiv.style.background = "rgb( 81,178,189)";
+
+
+        } else if(json[i].speaker =='max') {
+
+          inDiv1.className = "segment1";
+          const caption = doc.createElement("figcaption");
+          caption.innerText = "Max"
+          caption.style.background = "rgb( 81,178,189)";
+          inDiv1.appendChild(mImg);
+          inDiv1.appendChild(caption);
+          tempContainer.appendChild(inDiv1);
+          // newDiv.append(inDiv1);
+          // newDiv.style.background = "rgb(184,69,242)"; //Purple Blue Pairing
+          newDiv.style.background = "rgb( 81,178,189)";
+
+
         } else {
       
           inDiv2.className = "segment1";
@@ -227,44 +270,34 @@
       fetch('transcript.json')
       .then((response) => response.json())
       .then((json) => {
-
         json.forEach(function(element, index, array) {
             
-        
-          
           //Bold/Highlight Method 2
           if (currTime >= element.start && currTime <= element.end && subtitleBox.children[index].className != "talk-box-read") {
+            //&& subtitleBox.children[index].className != "talk-box-read"
+
             console.log(index + " -- " + element["start"]);
             console.log("Change Successful" + " -- " + element["start"]);
             subtitleBox.children[index].className = "talk-box-read";
+            // subtitleBox.children[index].style.background = "red";
             createQuestion(audioPlayer.currentTime);
   
-          //Scroll Method 1
-          setTimeout(() => {
-
-            if(scroll_switch.checked){
-              autoscroll.style.color = "white";
-              subtitleBox.children[index].scrollIntoView({
-                behavior: 'smooth',
-                // block: 'center'
-                block: 'end'
-            })
-
-            } else {
-              autoscroll.style.color = "#56AEFF";
+            //Scroll Method 1
+            setTimeout(() => {
+              if(scroll_switch.checked){
+                // autoscroll.style.color = "white";
+                subtitleBox.children[index].scrollIntoView({
+                  behavior: 'smooth',
+                  // block: 'center'
+                  block: 'end'
+              })
             }
-            
-          }, 10);
+              
+            }, 10);
   
-          // oldWidth = document.getElementsByClassName("profile-photos")[counter].width;
-  
-          // console.log(oldWidth + " Counter: " + counter);
           
           }
-  
-          
-          
-           //console.log(audioPlayer.currentTime); //eg 1.225931
+
           });
 
 

@@ -1,189 +1,314 @@
 [
-    
-    {
-        "speaker": "s",
-        "start": 0,
-        "end": 2,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 2,
-        "end": 4,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 4,
-        "end": 8,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 8,
-        "end": 10,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 10,
-        "end": 12,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 12,
-        "end": 14,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 14,
-        "end": 16,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 16,
-        "end": 18,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 18,
-        "end": 20,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 20,
-        "end": 22,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 22,
-        "end": 24,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 24,
-        "end": 26,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 26,
-        "end": 28,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 28,
-        "end": 30,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 30,
-        "end": 32,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 32,
-        "end": 34,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 34,
-        "end": 36,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 36,
-        "end": 38,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 38,
-        "end": 40,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 40,
-        "end": 42,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 42,
-        "end": 44,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 44,
-        "end": 46,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 46,
-        "end": 48,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 48,
-        "end": 50,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 50,
-        "end": 52,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 52,
-        "end": 54,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 54,
-        "end": 56,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 56,
-        "end": 58,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 58,
-        "end": 60,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "p",
-        "start": 60,
-        "end": 62,
-        "text": "abcdefg"
-      },
-      {
-        "speaker": "s",
-        "start": 62,
-        "end": 64,
-        "text": "abcdefg"
-      }
+  {
+    "speaker": "sarah",
+    "start": 0,
+    "end": 5,
+    "text": "Intro Music"
+  },
+  {
+    "speaker": "sarah",
+    "start": 5,
+    "end": 20,
+    "text": "Hello one and all, This is “Actions with no Potential” a part of the  PSYC 2288 chronicles. Today, we’re tackling a tough question faced by the justice system today: how are decisions about criminal sentencing made—and who, or what, should make them?"
+  },
+  {
+    "speaker": "sarah",
+    "start": 20,
+    "end": 39,
+    "text": "How does the human brain navigate the complexities of justice and fairness, balancing emotion, logic, and bias? Could artificial intelligence, with its ability to process vast amounts of data, provide a solution by delivering consistent and impartial decisions? Or does it risk losing the humanity essential to making such life-altering judgments?"
+  },
+  {
+    "speaker": "sarah",
+    "start": 39,
+    "end": 45,
+    "text": "In this episode, we’ll delve into the neuroscience behind human judgment and the ethical implications of letting machines play judge."
+  },
+  {
+    "speaker": "sarah",
+    "start": 45,
+    "end": 58,
+    "text": "With insights from leading experts in decision-making and AI ethics, we’ll explore the societal promises, risks, and technical challenges of technology stepping into such a profoundly human domain."
+  },
+  {
+    "speaker": "sarah",
+    "start": 63,
+    "end": 74,
+    "text": "Our first guest today will be helping us understand the neuroscience behind judgments and decision-making, explaining why judges in the criminal justice system make the decisions that they do, and providing insight into the human mind."
+  },
+  {
+    "speaker": "sarah",
+    "start": 74,
+    "end": 76,
+    "text": "Thank you so much for coming today."
+  },
+  {
+    "speaker": "diego",
+    "start": 76,
+    "end": 78,
+    "text": "Thank you for inviting me."
+  },
+  {
+    "speaker": "sarah",
+    "start": 78,
+    "end": 81,
+    "text": "If you want to state your name and your title"
+  },
+  {
+    "speaker": "diego",
+    "start": 81,
+    "end": 94,
+    "text": "Yeah, I'm Diego Fernandez-Duque, I'm an Associate Professor at Villanueva University in the Department  of Psychological and Brain Science, and I sometimes also teach at Penn."
+  },
+  {
+    "speaker": "sarah",
+    "start": 94,
+    "end": 110,
+    "text": "Wonderful. Well, much like we explained before, we're going to be talking about human decision making and how we handle the criminal sentencing because of it. But before we get into kind of the nitty and gritty of that, we'd first like to ask, how do humans kind of make these decisions and what are some of the neural mechanisms behind it?"
+  },
+  {
+    "speaker": "diego",
+    "start": 110,
+    "end": 121,
+    "text": "Well, that's a good question and a big question to start, so thank you. And depending on who you ask, I guess, how do humans make decisions? One possible answer is not very well."
+  },
+  {
+    "speaker": "max",
+    "start": 121,
+    "end": 128,
+    "text": "When we sat down with Professor Fernadez Duque, the first thing we asked him to do was give us an overview of how people make decisions."
+  },
+  {
+    "speaker": "diego",
+    "start": 128,
+    "end": 164,
+    "text": "the way that we make decisions, and we make a lot of decisions throughout our day, is  uh, mostly, in a spontaneous, automatic, unreflective way, what sometimes is unhelpfully known as system one, a but of course, we also sometimes stop and think and try to make decisions considering pros and cons, uh, in a more deliberate fashion, and so one idea or consensus is that there is these two systems, system one and system two, where this second deliberate system, um, sometimes It stops the System 1 and takes charge and tries to reason through it."
+  },
+  {
+    "speaker": "max",
+    "start": 164,
+    "end": 197,
+    "text": "The split between intuitive and analytical thinking that Professor Fernadez Duque is referring to is called Dual Processing Theory, which divides human thought and decision-making into systems one and two. System 1, which relies on quick, intuitive judgments - allows our brains to take shortcuts and make automatic, effortless decisions; think reading, or driving down an empty road. System 2 is slower and more deliberate. It requires us to perform calculations, actively engage in reasoning, and use logic to ensure we make the right choice. Choosing a major is a system 2 task, or parallel parking, depending on how good you are."
+  },
+  {
+    "speaker": "max",
+    "start": 197,
+    "end": 204,
+    "text": "Now that we understand the ways we can make decisions the next question we have to ask is what are the neural mechanisms that make up System 1 and System 2?"
+  },
+  {
+    "speaker": "max",
+    "start": 204,
+    "end": 209,
+    "text": "In terms of brain activity, Fernadez-duque suggests that System 1 primarily involves associative memory."
+  },
+  {
+    "speaker": "diego",
+    "start": 209,
+    "end": 228,
+    "text": "when it comes to the system one. Um, I think certainly the areas of associative memory but it would be a mistake I think to try to pinpoint a particular area where that resides because So much of the brain is involved in this Uh, associative, uh, reasoning, so to speak."
+  },
+  {
+    "speaker": "max",
+    "start": 228,
+    "end": 237,
+    "text": "However, Associative memory is an incredibly complex process, and as Dr. Fernandez Duque suggests, it can be hard to pinpoint a few specific brain regions responsible for its function."
+  },
+  {
+    "speaker": "max",
+    "start": 237,
+    "end": 256,
+    "text": "Some research has implicated key areas in the medial temporal lobes (MTLs) for their role in memory,  including the hippocampus (which is responsible for learning and long-term memory), the perirhinal cortex, responsible for recognizing an object, and connecting it to known memory), and the parahippocampal cortex, which links objects to locations or events to spaces)."
+  },
+  {
+    "speaker": "max",
+    "start": 256,
+    "end": 262,
+    "text": "System 2  on the other hand, is closely tied to executive function, which involves deliberate, higher-order thinking."
+  },
+  {
+    "speaker": "diego",
+    "start": 262,
+    "end": 291,
+    "text": "I think it is a little easier to point to certain brain areas when it comes to the system two, uh, the deliberate system. And there it's. Really the same system that we use for, um, effortful thinking. So it's a system that includes parts of the frontal lobe, uh, both in the, on the sides, what is called dorsolateral prefrontal cortex, as well as some areas in the middle of the brain, such as the midfrontal or anterior cingulate."
+  },
+  {
+    "speaker": "max",
+    "start": 291,
+    "end": 308,
+    "text": "These functions are primarily supported by the prefrontal cortex, or more specifically, the dorsolateral prefrontal cortex. This brain region essentially acts as a control center for executive function, and mediates inhibitory control, option evaluation, and the use of working memory, which gives rise to our ability to pause and think rather than react impulsively."
+  },
+  {
+    "speaker": "max",
+    "start": 308,
+    "end": 323,
+    "text": "Another region that plays a key role in system 2 thinking is The dorsal anterior cingulate cortex (dACC). Its job is to evaluate uncertainty and rewards, allocate mental resources to where they’re needed most and monitor conflicts in decision-making (like choosing between two equally appealing options)."
+  },
+  {
+    "speaker": "max",
+    "start": 323,
+    "end": 328,
+    "text": "Together, these regions enable us to approach decisions thoughtfully and resolve complex dilemmas."
+  },
+  {
+    "speaker": "max",
+    "start": 328,
+    "end": 342,
+    "text": "So, given the potential consequences of their decisions, ideally criminal sentencing would consistently engage System two in the minds of experts like judges. However, as Dr. Fernandez-Duque explains, environmental factors can easily impair System 2's functioning."
+  },
+  {
+    "speaker": "diego",
+    "start": 342,
+    "end": 373,
+    "text": "How can system two not do the job that we're hoping it will do, right? And there are different ways. One of them would be if system two is kind of asleep at the wheel so to speak and so sometimes being sleepy is one way where we don't uh are really able to to exercise that inhibitory control the same when we are hungry when we are drunk when we are So those are all situations where our future control will not work."
+  },
+  {
+    "speaker": "max",
+    "start": 373,
+    "end": 381,
+    "text": "When this happens, decision-makers can end up reverting to the quicker but less reliable System 1 which can lead to some of the errors that come with making reflexive decisions."
+  },
+  {
+    "speaker": "max",
+    "start": 381,
+    "end": 395,
+    "text": "Even when System 2 is engaged, it is not infallible.Dr. Fernandez-Duque notes that System 2 can be hindered by two notable factors: biases and noise. Biases occur when decisions are systematically influenced by irrelevant factors."
+  },
+  {
+    "speaker": "diego",
+    "start": 395,
+    "end": 438,
+    "text": "Judges tend to have a preference for certain cases. So, going back to, to the judicial system, you can imagine a judge who is really lenient, except for repeat offenders. If you're a repeat offender, then the judge might, have their own reasons for why, but the problem is those reasons are not shared by, by all the other judges. Why, if you're a repeat offender, then no mercy for you. And then there might be some other judge who might feel that they are very, more, more lenient toward, women than to men, unless the crime is one that has to do with family matters."
+  },
+  {
+    "speaker": "max",
+    "start": 438,
+    "end": 443,
+    "text": "Today, societal issues manifest in these biases, which can lead to conflicting and unfair sentencing practices."
+  },
+  {
+    "speaker": "max",
+    "start": 443,
+    "end": 450,
+    "text": "Our second guest will help us understand how AI models may help mitigate the downsides of human decision-making."
+  },
+  {
+    "speaker": "rajeev",
+    "start": 450,
+    "end": 460,
+    "text": "Hello everyone, I'm glad to be here. My name is Rajeev Alur and I'm a professor in Department of Computer and Information Science in Penn Engineering."
+  },
+  {
+    "speaker": "max",
+    "start": 460,
+    "end": 468,
+    "text": "As Dr. Alur points out, if implemented correctly, AI models have the potential to eliminate some of these inconsistencies and create a more just system of law."
+  },
+  {
+    "speaker": "rajeev",
+    "start": 468,
+    "end": 509,
+    "text": "If a model is, for example, uh, recommending to the judge that this particular person is, uh, likely to recommit crime if, uh, they release this person on bail, right? Yeah. So there, the model would be trained on all the history of that particular, uh, person and then it would be So there, if it's gives a high score, high probability that this person would, recommit a crime, then the judge obviously is less likely to release that person on bail."
+  },
+  {
+    "speaker": "rajeev",
+    "start": 509,
+    "end": 543,
+    "text": "In that setting, what you want is that the model is not biased. It's, again, not looking at the features of the person that, you know, we would, as a, you know, as a society or as humans, we would consider that these are not the features that the model should focus on, but more in terms of what they have actually done right here. So it shouldn't be looking at, for example, gender, race, or their income, or their, uh, you know, the, their neighborhood and things like that, right? But more on, uh, exactly what, uh, what this person has done."
+  },
+  {
+    "speaker": "max",
+    "start": 543,
+    "end": 561,
+    "text": "Noise, on the other hand, as coined by Daniel Kahneman, refers to inconsistencies in decisions like when two judges arrive at vastly different sentences for the same crime. This variability creates a dynamic that becomes almost  a\"lottery\" in terms of sentencing, which can undermine public trust in the justice system, as well as harm those who might be “unlucky”"
+  },
+  {
+    "speaker": "diego",
+    "start": 561,
+    "end": 587,
+    "text": "We want a system that is not a lottery.We want the number of years that you're going to spend in prison, or the amount of money that you're supposed to pay, or the ability or inability of having custody of your children should not depend on a lottery. And there is Quite a bit of evidence. And the lottery, by the way, is this noise, right? Its random.And it's not all a lottery, right?"
+  },
+  {
+    "speaker": "diego",
+    "start": 587,
+    "end": 601,
+    "text": "So if you look at somebody who committed a violent crime versus somebody who committed a nonviolent crime, you will find on average that the violent crimes have Stiffer penalties as we would want. So it's not all noise, but there is too much noise."
+  },
+  {
+    "speaker": "max",
+    "start": 601,
+    "end": 619,
+    "text": "Despite its flaws, human decision-making offers unique strengths. Humans are great at recognizing context as well as subtle cues, and we have an innate sense of morality that is unique to us as a species. Dr. Fernandez-Duque notes that this sense of right and wrong is so fundamental that it emerges even in childhood, guiding us to broadly agree on what is acceptable and what is not."
+  },
+  {
+    "speaker": "diego",
+    "start": 619,
+    "end": 643,
+    "text": "but there is some objectivity based on, I guess, the intersubjectivity consensus, right? So, um, there are certain things that probably for good reasons in society, we do not, we do not approve to, for, we don't approve a lot. And it's interesting also to notice that children from a young age appreciate a distinction between what are, for lack of a better term, ethical rules and what are social conventions."
+  },
+  {
+    "speaker": "diego",
+    "start": 643,
+    "end": 670,
+    "text": "My wife, Jodi Bird, she's a preschool teacher at, um, Thorne School in Bryn Mawr College. And, uh, they sometimes get to do pyjama day, which I think Great. That's right. And in a few days, we're going to have Halloween, right? And so, uh, kids understand that whether you get to wear pajamas or not is a matter of social convention."
+  },
+  {
+    "speaker": "diego",
+    "start": 670,
+    "end": 702,
+    "text": "And if the teacher says that it's okay to wear pajamas, it's okay to wear pajamas. a preschool teacher would say, well, we already had Halloween and we already have pyjama day. So today we're going to have beat Jimmy day. I mean, this is the day where if you want to slap Jimmy here, you can. Well, that would be ludicrous, right? And children understand at an early age that no, that that is not okay, that there are certain moral values that transcend personal preference, unlike the social conventions, right?"
+  },
+  {
+    "speaker": "max",
+    "start": 702,
+    "end": 714,
+    "text": "This moral intuition also shapes our skepticism toward machine-made decisions. Without transparency or a clear rationale, we struggle to trust algorithms, often defaulting to human judgment, even when machines prove to have greater consistency."
+  },
+  {
+    "speaker": "rajeev",
+    "start": 714,
+    "end": 728,
+    "text": "There is also this EQ involved, right, it's the emergency doctor is really interacting with the patient and they can get a feel for how the you know, how poor condition the patient is versus not, right?"
+  },
+  {
+    "speaker": "rajeev",
+    "start": 728,
+    "end": 761,
+    "text": "Which a purely data driven approach just doesn't have access to that, uh, you know, that, that feel that, that like a doctor would have while talking to the patient. So, in this particular case, then both, uh, both these systems have, uh, access to some information that the other system doesn't have. So this, would be the next generation of AI systems then would be this human AI collaborative systems where we could, uh, combine the decisions made by the two."
+  },
+  {
+    "speaker": "max",
+    "start": 761,
+    "end": 768,
+    "text": "As Dr. alur suggests, a balanced approach—leveraging both human judgment and machine assistance—may offer the best path forward."
+  },
+  {
+    "speaker": "max",
+    "start": 768,
+    "end": 774,
+    "text": "But Fernandez-Duque points out that, in the future, this collaboration will not always be a smooth one."
+  },
+  {
+    "speaker": "diego",
+    "start": 774,
+    "end": 808,
+    "text": "The problem there is that we often, if we let the human coordinate with the model. The human, and the humans are us, by the way,  override the model more than they should, because we tend to see exceptions, all over the place. So if you have some person who, is has a certain profile and it's predicted that he will do well outside, but there is something that you just found out.I mean you just found out that he was planning to poison his ex wife when he comes out."
+  },
+  {
+    "speaker": "diego",
+    "start": 808,
+    "end": 837,
+    "text": "Well, that's not in the model, but he's certainly getting out now, right? And he shouldn't because you have evidence now the problem is that we and that's sometimes called the broken leg effect. So if you're planning which team is gonna win the game and you have Argentina has Messi , which is the best player in the world,(go Argentina) and so you think Argentina is gonna win. But now all of a sudden you find out that Messi has a broken leg well, the model doesn't have that, but you, as you are, you can use that information, right? And you should."
+  },
+  {
+    "speaker": "diego",
+    "start": 837,
+    "end": 863,
+    "text": "The problem is that we see poisoned ex wives and broken legs more than they are. So, we think that that letter that the guy was writing in anger, that he wants to strangle his kids, actually means strangle as opposed to means like more kind of metaphorically venting, right? And so we say, no, no, no, in this case, he's saying he's going to strangle his kids. I'm not going to give parole. And in that way, you suppress the prediction of the model."
+  },
+  {
+    "speaker": "max",
+    "start": 863,
+    "end": 893,
+    "text": "Despite its advantages in emotional perception, human biases can cause unpredictability in judgment just as machines can fall into the trap of magnifying biases despite their consistency in the face of large data sets. The collaboration between human and machine decision-making is still in its infancy, and while consistent strides are being made toward understanding each in its entirety, the process will take time. Though slow, this pace of advancement could ultimately lead to more just sentencing decisions than are possible under modern law."
+  }
 ]

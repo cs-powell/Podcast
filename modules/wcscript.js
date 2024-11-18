@@ -18,8 +18,6 @@
         element.innerText = json[i].text + "";
         element.className = "dialouge";
         
-
-        
         //Image Setup
         sarImg = new Image(100,100);
         sarImg.src = 'assets/images/pokemon.png'; 
