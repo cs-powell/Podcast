@@ -344,19 +344,20 @@
 
 
     presentation_label.addEventListener("mousedown", function(e) {
-      audioPlayer.currentTime = 205;
+      audioPlayer.currentTime = 165;
       scroll_switch.checked = true;
       presentation_label.checked = true;
       audioPlayer.play();
       autoscroll.innerText = "IT WORKED";
+    })
 
-      // if(scroll_switch.checked){
-      //   autoscroll.style.color = "white";
-      //   autoscroll.innerText = "Autoscroll off ";
-      // } else {
-      //   autoscroll.style.color = "#56AEFF";
-      //   autoscroll.innerText = "Autoscroll on ";
-      // }
+
+    audioPlayer.addEventListener("timeupdate", function(e) {
+      stopTime = 346;
+      if(presentation_label.checked == true && audioPlayer.currentTime >= stopTime){
+        console.log("We should stop");
+        audioPlayer.pause();
+      }
     })
 
 
