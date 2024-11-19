@@ -347,12 +347,13 @@
       audioPlayer.currentTime = 165;
       scroll_switch.checked = true;
       presentation_label.checked = true;
+      //presentation_label.checked = false;
       audioPlayer.play();
     })
 
 
     audioPlayer.addEventListener("timeupdate", function(e) {
-      stopTime = 346;
+      stopTime = 342.7;
       if(presentation_label.checked == true && audioPlayer.currentTime >= stopTime){
         console.log("We should stop");
         audioPlayer.pause();
