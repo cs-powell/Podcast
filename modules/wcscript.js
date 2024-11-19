@@ -2,6 +2,7 @@
 
     //Global variables
     var wcBox = doc.getElementById("wc");
+    var mcBox = doc.getElementById("mc");
   
     function createWC() {
       //GET JSON
@@ -41,14 +42,7 @@
     }
 
 
-
-
-
-    createWC();
-
-
     function createMC() {
-      var mcBox = doc.getElementById("mc");
 
         //GET JSON
         fetch('mc.json')
@@ -85,6 +79,11 @@
         }
       });
     }
+
+    createWC();
+
+
+   
 
     createMC();
 
