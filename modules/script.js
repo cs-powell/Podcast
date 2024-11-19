@@ -348,6 +348,8 @@
       scroll_switch.checked = true;
       presentation_label.checked = true;
       audioPlayer.play();
+      autoscroll.innerText = "IT WORKED";
+
       // if(scroll_switch.checked){
       //   autoscroll.style.color = "white";
       //   autoscroll.innerText = "Autoscroll off ";
