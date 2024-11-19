@@ -348,7 +348,6 @@
       scroll_switch.checked = true;
       presentation_label.checked = true;
       audioPlayer.play();
-      autoscroll.innerText = "IT WORKED";
     })
 
 
