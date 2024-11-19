@@ -58,7 +58,7 @@ p {
    color: rgb(251, 234, 3);
 }
 
-#wc {
+#wc  {
     text-wrap: wrap;
     background-color: aquamarine;
     background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(0, 157, 255) );
@@ -66,6 +66,18 @@ p {
     border-radius: 30px;
     margin: 20px;
     width: fit-content;
+}
+
+#mc {
+    text-wrap: wrap;
+    background-color: aquamarine;
+    background-image: linear-gradient(to right, rgb(162, 0, 255), rgb(0, 157, 255) );
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    width: 90%;
+    align-self: center;
+
 }
 
 .wc-box{
