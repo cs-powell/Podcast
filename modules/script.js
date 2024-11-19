@@ -29,6 +29,7 @@
     var questionBox = doc.getElementById("question-box");
     var scroll_switch = doc.getElementById("scroll-switch");
     var scroll_label = doc.getElementById("scroll-switch1");
+    var presentation_label = doc.getElementById("scroll-switch2");
     var autoscroll = doc.getElementById("autoscroll");
     var controlPanel = doc.getElementById("control-panel");
 
@@ -232,7 +233,7 @@
           newDiv.style.background = "rgb( 81,178,189)";
 
 
-        }else if(json[i].speaker == 'rajeev') {
+        } else if(json[i].speaker == 'rajeev') {
 
           inDiv1.className = "segment1";
           const caption = doc.createElement("figcaption");
@@ -281,6 +282,8 @@
     createSubtitle();
 
     counter = 0;
+
+    
 
     audioPlayer.addEventListener("timeupdate", function(e) {   //timeupdate event
       // const tS = document.getElementsByClassName("timeStamp");
@@ -338,6 +341,25 @@
       }
 
     })
+
+
+    presentation_label.addEventListener("mousedown", function(e) {
+      audioPlayer.currentTime = 205;
+      scroll_switch.checked = true;
+      presentation_label.checked = true;
+      audioPlayer.play();
+      // if(scroll_switch.checked){
+      //   autoscroll.style.color = "white";
+      //   autoscroll.innerText = "Autoscroll off ";
+      // } else {
+      //   autoscroll.style.color = "#56AEFF";
+      //   autoscroll.innerText = "Autoscroll on ";
+      // }
+    })
+
+
+
+
 
 
 
